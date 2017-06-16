@@ -1,26 +1,98 @@
 body{
 	margin:0;
 	padding:0;
-	background:linear-gradient( #400080, transparent),
- linear-gradient(200deg, #d047d1, #ff0000,#ffff00);
+	background:linear-gradient( #489979, transparent),
+ linear-gradient(608deg, #60ba8f, #a29460,#c5764c);
  height: 100vh;
 }
 .text{
 	color:white;
 }
+.idioma{
+	padding-top:14px;
+}
 .insta-blanco{
-	width: 194px;
-    padding-top: 35px;
+    width: 196px;
+    padding-top: 44px;
     padding-bottom: 13px;
 }
 .info{
-	width: 70%;
+    padding: 12px 0;
+    width: 97%;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 1px transparent;
+    margin: 7px;
+}
+.info::-webkit-input-placeholder {
+  color: #fff;
+  padding-left:9px;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: transparent;
+    border-color: #adadad;
+}
+.btn-meet{
+    background: transparent;
+    padding-top: 6px;
+    font-weight: bold;
+    color: white;
+    width: 314px;
+    margin-top: 7px;
+    height: 45px;
+}
+.ayuda{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.obten{
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+}
+.obten:hover{
+	text-decoration: underline;
+	color:#fff;
+}
+.lineaIzq{
+	border-top: 1px solid #adadad;
+    width: 124%;
+    position: absolute;
+    left: 21px;
+    top: 15px;
+}
+.lineaDer{
+	border-top: 1px solid #adadad;
+    width: 124%;
+    position: absolute;
+    right: 18px;
+    top: 15px;
+}
+#circulo{
+    color: white;
+    position: relative;
+    left: 40px;
+    font-size: 13px;
+    top: 6px;
+}
+.iniciar{
+    font-weight: bold;
+    padding-left: 74px;
+}
+.fa-facebook-official{
+    color: #fff;
+    position: relative;
+    left: 49px;
+    top: 18px;
 }
 footer{
-	position: absolute;
-    padding-top: 223px;
-    height: 40px;
+	background-color: rgba(255, 255, 255, 0.10);
+    border-top: 1px solid #adadad;
+    position: absolute;
+    padding-top: 14px;
+    margin-top: 114px;
     width: 100%;
+    height: 49px;
 }
 
 
